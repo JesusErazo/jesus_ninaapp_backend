@@ -1,0 +1,584 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\microservices\\NinaAppSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\validators\\userupdationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\validators\\userupdationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\validators\\usercreationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\validators\\usercreationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B51F20D0-BE25-445F-BA54-B2ADFA6F7167}|NinaApp.xUnit.Tests\\NinaApp.xUnit.Tests.csproj|d:\\microservices\\ninaappsolution\\ninaapp.xunit.tests\\ninaapp.core\\validators\\usercreationvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B51F20D0-BE25-445F-BA54-B2ADFA6F7167}|NinaApp.xUnit.Tests\\NinaApp.xUnit.Tests.csproj|solutionrelative:ninaapp.xunit.tests\\ninaapp.core\\validators\\usercreationvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B51F20D0-BE25-445F-BA54-B2ADFA6F7167}|NinaApp.xUnit.Tests\\NinaApp.xUnit.Tests.csproj|d:\\microservices\\ninaappsolution\\ninaapp.xunit.tests\\ninaapp.core\\entities\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B51F20D0-BE25-445F-BA54-B2ADFA6F7167}|NinaApp.xUnit.Tests\\NinaApp.xUnit.Tests.csproj|solutionrelative:ninaapp.xunit.tests\\ninaapp.core\\entities\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\resources\\errormessages.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\resources\\errormessages.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\extensions\\localizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\extensions\\localizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|d:\\microservices\\ninaappsolution\\ninaapp.infrastructurelayer\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|solutionrelative:ninaapp.infrastructurelayer\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\repositorycontracts\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\repositorycontracts\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\dto\\userupdation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\dto\\userupdation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|d:\\microservices\\ninaappsolution\\ninaapp.infrastructurelayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|solutionrelative:ninaapp.infrastructurelayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\dto\\usercreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\dto\\usercreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\extensions\\validationfailureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\extensions\\validationfailureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\common\\serviceresultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\common\\serviceresultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\common\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\common\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\servicecontracts\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\servicecontracts\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\dto\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\dto\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|d:\\microservices\\ninaappsolution\\ninaapp.infrastructurelayer\\extensions\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|solutionrelative:ninaapp.infrastructurelayer\\extensions\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\dto\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\dto\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|d:\\microservices\\ninaappsolution\\ninaapp.businesslogiclayer\\mappers\\usertouserresponsemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B3C455-3557-4B97-97BD-676EBAB53833}|NinaApp.BusinessLogicLayer\\NinaApp.Core.csproj|solutionrelative:ninaapp.businesslogiclayer\\mappers\\usertouserresponsemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|d:\\microservices\\ninaappsolution\\ninaapp.infrastructurelayer\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|solutionrelative:ninaapp.infrastructurelayer\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|d:\\microservices\\ninaappsolution\\ninaapp.infrastructurelayer\\ninaapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|solutionrelative:ninaapp.infrastructurelayer\\ninaapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|d:\\microservices\\ninaappsolution\\ninaapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74933896-D61E-48A3-B409-9FA4C1F9C881}|NinaApp.API\\NinaApp.API.csproj|solutionrelative:ninaapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|d:\\microservices\\ninaappsolution\\ninaapp.infrastructurelayer\\migrations\\20260102215206_usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23A0103-506F-499E-8AF0-1DA5752C6EC5}|NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj|solutionrelative:ninaapp.infrastructurelayer\\migrations\\20260102215206_usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserCreationValidatorTests.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.xUnit.Tests\\NinaApp.Core\\Validators\\UserCreationValidatorTests.cs",
+              "RelativeDocumentMoniker": "NinaApp.xUnit.Tests\\NinaApp.Core\\Validators\\UserCreationValidatorTests.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.xUnit.Tests\\NinaApp.Core\\Validators\\UserCreationValidatorTests.cs",
+              "RelativeToolTip": "NinaApp.xUnit.Tests\\NinaApp.Core\\Validators\\UserCreationValidatorTests.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAuwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T13:16:41.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserTests.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.xUnit.Tests\\NinaApp.Core\\Entities\\UserTests.cs",
+              "RelativeDocumentMoniker": "NinaApp.xUnit.Tests\\NinaApp.Core\\Entities\\UserTests.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.xUnit.Tests\\NinaApp.Core\\Entities\\UserTests.cs",
+              "RelativeToolTip": "NinaApp.xUnit.Tests\\NinaApp.Core\\Entities\\UserTests.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwLAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T01:21:53.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Entities\\User.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Entities\\User.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Entities\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:00:49.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "NinaApp.InfrastructureLayer\\Repositories\\UsersRepository.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "NinaApp.InfrastructureLayer\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:08:25.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "NinaApp.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "NinaApp.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:22:32.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "NinaApp.API\\Program.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Program.cs",
+              "RelativeToolTip": "NinaApp.API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:21:16.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserCreationValidator.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Validators\\UserCreationValidator.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Validators\\UserCreationValidator.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Validators\\UserCreationValidator.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Validators\\UserCreationValidator.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T22:09:40.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserUpdationValidator.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Validators\\UserUpdationValidator.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Validators\\UserUpdationValidator.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Validators\\UserUpdationValidator.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Validators\\UserUpdationValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T00:41:30.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\RepositoryContracts\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\RepositoryContracts\\IUsersRepository.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\RepositoryContracts\\IUsersRepository.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\RepositoryContracts\\IUsersRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:12:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Services\\UsersService.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Services\\UsersService.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Services\\UsersService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:07:36.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "NinaApp.API\\Controllers\\BaseApiController.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "NinaApp.API\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T17:16:26.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "NinaApp.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "NinaApp.API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T00:49:59.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorMessages.resx",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Resources\\ErrorMessages.resx",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Resources\\ErrorMessages.resx",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Resources\\ErrorMessages.resx",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Resources\\ErrorMessages.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-07T22:01:47.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocalizationExtensions.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Extensions\\LocalizationExtensions.cs",
+              "RelativeDocumentMoniker": "NinaApp.API\\Extensions\\LocalizationExtensions.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Extensions\\LocalizationExtensions.cs",
+              "RelativeToolTip": "NinaApp.API\\Extensions\\LocalizationExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:11:15.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Exceptions\\DomainException.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:29:58.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\DependencyInjection.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DependencyInjection.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\DependencyInjection.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:40:27.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserUpdation.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\UserUpdation.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\DTO\\UserUpdation.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\UserUpdation.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\DTO\\UserUpdation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:27:13.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\ServiceContracts\\IUsersService.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\ServiceContracts\\IUsersService.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\ServiceContracts\\IUsersService.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\ServiceContracts\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:42:47.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserCreation.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\UserCreation.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\DTO\\UserCreation.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\UserCreation.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\DTO\\UserCreation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:11:04.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Common\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Common\\ServiceResult.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Common\\ServiceResult.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Common\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:03:51.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceResultStatus.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Common\\ServiceResultStatus.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Common\\ServiceResultStatus.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Common\\ServiceResultStatus.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Common\\ServiceResultStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T15:01:16.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "NinaApp.InfrastructureLayer\\DependencyInjection.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\DependencyInjection.cs",
+              "RelativeToolTip": "NinaApp.InfrastructureLayer\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:41:00.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\UserResponse.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\DTO\\UserResponse.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\UserResponse.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\DTO\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:55:44.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ValidationFailureExtensions.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Extensions\\ValidationFailureExtensions.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Extensions\\ValidationFailureExtensions.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Extensions\\ValidationFailureExtensions.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Extensions\\ValidationFailureExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T01:35:08.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Common\\PagedList.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Common\\PagedList.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Common\\PagedList.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Common\\PagedList.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBWwBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T15:04:28.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Extensions\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "NinaApp.API\\Extensions\\HttpContextExtensions.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Extensions\\HttpContextExtensions.cs",
+              "RelativeToolTip": "NinaApp.API\\Extensions\\HttpContextExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T17:10:54.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QueryableExtensions.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Extensions\\QueryableExtensions.cs",
+              "RelativeDocumentMoniker": "NinaApp.InfrastructureLayer\\Extensions\\QueryableExtensions.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Extensions\\QueryableExtensions.cs",
+              "RelativeToolTip": "NinaApp.InfrastructureLayer\\Extensions\\QueryableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T16:19:12.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\Pagination.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\DTO\\Pagination.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\DTO\\Pagination.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\DTO\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T16:49:38.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserToUserResponseMappingProfile.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Mappers\\UserToUserResponseMappingProfile.cs",
+              "RelativeDocumentMoniker": "NinaApp.BusinessLogicLayer\\Mappers\\UserToUserResponseMappingProfile.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.BusinessLogicLayer\\Mappers\\UserToUserResponseMappingProfile.cs",
+              "RelativeToolTip": "NinaApp.BusinessLogicLayer\\Mappers\\UserToUserResponseMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T16:50:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "NinaApp.InfrastructureLayer\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "NinaApp.InfrastructureLayer\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:56:28.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "NinaApp.API\\appsettings.json",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\appsettings.json",
+              "RelativeToolTip": "NinaApp.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-02T02:23:16.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260102215206_UserTable.cs",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Migrations\\20260102215206_UserTable.cs",
+              "RelativeDocumentMoniker": "NinaApp.InfrastructureLayer\\Migrations\\20260102215206_UserTable.cs",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\Migrations\\20260102215206_UserTable.cs",
+              "RelativeToolTip": "NinaApp.InfrastructureLayer\\Migrations\\20260102215206_UserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T21:52:07.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NinaApp.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj",
+              "RelativeToolTip": "NinaApp.InfrastructureLayer\\NinaApp.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-02T02:39:09.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Dockerfile",
+              "RelativeDocumentMoniker": "NinaApp.API\\Dockerfile",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\Dockerfile",
+              "RelativeToolTip": "NinaApp.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-02T02:50:10.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "NinaApp.API\\appsettings.Development.json",
+              "ToolTip": "D:\\microservices\\NinaAppSolution\\NinaApp.API\\appsettings.Development.json",
+              "RelativeToolTip": "NinaApp.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-02T02:25:11.184Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
