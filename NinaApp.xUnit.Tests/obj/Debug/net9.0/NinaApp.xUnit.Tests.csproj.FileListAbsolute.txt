@@ -169,3 +169,4 @@ D:\microservices\NinaAppSolution\NinaApp.xUnit.Tests\obj\Debug\net9.0\refint\Nin
 D:\microservices\NinaAppSolution\NinaApp.xUnit.Tests\obj\Debug\net9.0\NinaApp.xUnit.Tests.pdb
 D:\microservices\NinaAppSolution\NinaApp.xUnit.Tests\obj\Debug\net9.0\NinaApp.xUnit.Tests.genruntimeconfig.cache
 D:\microservices\NinaAppSolution\NinaApp.xUnit.Tests\obj\Debug\net9.0\ref\NinaApp.xUnit.Tests.dll
+D:\microservices\NinaAppSolution\NinaApp.xUnit.Tests\obj\Debug\net9.0\NinaApp.xUnit.Tests.sourcelink.json

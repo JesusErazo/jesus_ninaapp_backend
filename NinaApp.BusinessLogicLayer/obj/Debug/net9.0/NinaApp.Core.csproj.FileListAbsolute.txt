@@ -15,3 +15,4 @@ D:\microservices\NinaAppSolution\NinaApp.BusinessLogicLayer\obj\Debug\net9.0\Nin
 D:\microservices\NinaAppSolution\NinaApp.BusinessLogicLayer\bin\Debug\net9.0\es\NinaApp.Core.resources.dll
 D:\microservices\NinaAppSolution\NinaApp.BusinessLogicLayer\obj\Debug\net9.0\NinaApp.Core.Resources.ErrorMessages.es.resources
 D:\microservices\NinaAppSolution\NinaApp.BusinessLogicLayer\obj\Debug\net9.0\es\NinaApp.Core.resources.dll
+D:\microservices\NinaAppSolution\NinaApp.BusinessLogicLayer\obj\Debug\net9.0\NinaApp.Core.sourcelink.json

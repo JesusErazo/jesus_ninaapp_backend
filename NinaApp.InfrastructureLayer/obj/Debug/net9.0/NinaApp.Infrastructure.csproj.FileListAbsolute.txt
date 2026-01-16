@@ -16,3 +16,4 @@ D:\microservices\NinaAppSolution\NinaApp.InfrastructureLayer\obj\Debug\net9.0\Ni
 D:\microservices\NinaAppSolution\NinaApp.InfrastructureLayer\obj\Debug\net9.0\NinaApp.Infrastructure.genruntimeconfig.cache
 D:\microservices\NinaAppSolution\NinaApp.InfrastructureLayer\obj\Debug\net9.0\ref\NinaApp.Infrastructure.dll
 D:\microservices\NinaAppSolution\NinaApp.InfrastructureLayer\bin\Debug\net9.0\es\NinaApp.Core.resources.dll
+D:\microservices\NinaAppSolution\NinaApp.InfrastructureLayer\obj\Debug\net9.0\NinaApp.Infrastructure.sourcelink.json

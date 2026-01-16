@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NinaApp.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44714e854c1772166679db2e8754796ed0c3236b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NinaApp.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NinaApp.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
