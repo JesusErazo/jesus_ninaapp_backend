@@ -11,7 +11,8 @@ namespace NinaApp.Core.Validators
         .MaximumLength(80).WithMessage("Name cannot exceed 80 characters.");
 
       RuleFor(x => x.Email)
-        .EmailAddress().WithMessage("A valid email address is required.")
+        .Matches(@"^[a-zA-Z0-9_+-]+(\.[a-zA-Z0-9_+-]+)*@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}$")
+        .WithMessage("A valid email address is required.")
         .MinimumLength(7).WithMessage("Email must have at least 7 characters.")
         .MaximumLength(50).WithMessage("Email cannot exceed 50 characters.");
 
