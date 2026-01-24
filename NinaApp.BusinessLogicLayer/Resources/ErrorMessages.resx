@@ -129,6 +129,9 @@
   <data name="InvalidUserId" xml:space="preserve">
     <value>User ID {0} is not valid. Please check and try again.</value>
   </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Invalid username or password.</value>
+  </data>
   <data name="UserNotFound" xml:space="preserve">
     <value>User with ID {0} not found. Please check and try again.</value>
   </data>

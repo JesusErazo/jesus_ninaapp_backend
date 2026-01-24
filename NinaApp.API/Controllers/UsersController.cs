@@ -13,6 +13,15 @@ namespace NinaApp.API.Controllers
       _usersService = usersService;
     }
 
+    [HttpPost("login")]
+    public async Task<IActionResult> Login(UserLogin userLogin)
+    {
+      var loginResult = await _usersService.AuthenticateUser(userLogin);
+
+      return HandleResult(loginResult);
+    }
+
+
     [HttpGet]
     public async Task<IActionResult> GetUsers([FromQuery] Pagination pagination)
     {

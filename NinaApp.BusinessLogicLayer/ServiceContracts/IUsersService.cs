@@ -6,6 +6,12 @@ namespace NinaApp.Core.ServiceContracts
   public interface IUsersService
   {
     /// <summary>
+    /// Authenticates a user by validating the provided credentials.
+    /// </summary>
+    /// <param name="userLogin">User credentials to log in</param>
+    /// <returns>A ServiceResult object with the retrieved data (if any) and the detail of the operation.</returns>
+    public Task<ServiceResult> AuthenticateUser(UserLogin userLogin);
+    /// <summary>
     /// Retrieves a group of Users applying pagination logic.
     /// </summary>
     /// <param name="page">The desired page number.</param>

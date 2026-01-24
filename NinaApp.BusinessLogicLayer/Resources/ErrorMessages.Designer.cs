@@ -97,6 +97,15 @@ namespace NinaApp.Core.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid username or password..
+        /// </summary>
+        public static string LoginError {
+            get {
+                return ResourceManager.GetString("LoginError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User with ID {0} not found. Please check and try again..
         /// </summary>
         public static string UserNotFound {

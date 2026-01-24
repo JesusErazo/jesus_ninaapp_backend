@@ -17,18 +17,21 @@ namespace NinaApp.Core.Services
     private readonly IMapper _mapper;
     private readonly IValidator<UserCreation> _userCreationValidator;
     private readonly IValidator<UserUpdation> _userUpdationValidator;
+    private readonly IValidator<UserLogin> _userLoginValidator;
     private readonly IPasswordHasher _passwordHasher;
     public UsersService(
       IUsersRepository usersRepository, 
       IMapper mapper, 
       IValidator<UserCreation> userCreationValidator,
       IValidator<UserUpdation> userUpdationValidator,
+      IValidator<UserLogin> userLoginValidator,
       IPasswordHasher passwordHasher
       ) {
       _usersRepository = usersRepository;
       _mapper = mapper;
       _userCreationValidator = userCreationValidator;
       _userUpdationValidator = userUpdationValidator;
+      _userLoginValidator = userLoginValidator;
       _passwordHasher = passwordHasher;
     }
 
@@ -163,6 +166,37 @@ namespace NinaApp.Core.Services
         string.Format(ErrorMessages.ConcurrencyError,userID), 
         ServiceResultStatus.NotFound
       );
+    }
+
+    public async Task<ServiceResult> AuthenticateUser(UserLogin userLogin)
+    {
+      ValidationResult validationResult = await _userLoginValidator.ValidateAsync(userLogin);
+
+      if (!validationResult.IsValid)
+      {
+        Dictionary<string, string[]> errors = validationResult.Errors.ToValidationErrorDictionary();
+        return ServiceResult.ValidationFailure(errors);
+      }
+
+      User? existingUser = await _usersRepository.GetUserByEmail(userLogin.Email!);
+
+      if (existingUser is null)
+      {
+        return ServiceResult.Failure(
+          string.Format(ErrorMessages.LoginError),
+          ServiceResultStatus.Unauthorized
+        );
+      }
+
+      bool verifiedUser = _passwordHasher.Verify(userLogin.Password!, existingUser.Password!);
+
+      if (verifiedUser)
+        return ServiceResult.Success();
+
+      return ServiceResult.Failure(
+          string.Format(ErrorMessages.LoginError),
+          ServiceResultStatus.Unauthorized
+        );
     }
   }
 }
