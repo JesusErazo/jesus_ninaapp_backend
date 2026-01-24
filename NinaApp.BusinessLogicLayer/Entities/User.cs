@@ -14,7 +14,7 @@ namespace NinaApp.Core.Entities
     [StringLength(50)]
     public string? Email { get; private set; }
 
-    [StringLength(50)]
+    [StringLength(255)]
     public string? Password { get; private set; }
 
     //Protected constructor for EF Core

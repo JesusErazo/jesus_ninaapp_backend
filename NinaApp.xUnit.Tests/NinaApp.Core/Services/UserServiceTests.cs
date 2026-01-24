@@ -19,6 +19,7 @@ namespace NinaApp.xUnit.Tests.NinaApp.Core.Services
     private readonly Mock<IMapper> _mapperMock;
     private readonly Mock<IValidator<UserCreation>> _userCreationValidatorMock;
     private readonly Mock<IValidator<UserUpdation>> _userUpdationValidatorMock;
+    private readonly Mock<IPasswordHasher> _passwordHasherMock;
 
     //Service under test
     private readonly IUsersService _usersService;
@@ -29,12 +30,14 @@ namespace NinaApp.xUnit.Tests.NinaApp.Core.Services
       _mapperMock = new Mock<IMapper>();
       _userCreationValidatorMock = new Mock<IValidator<UserCreation>>();
       _userUpdationValidatorMock = new Mock<IValidator<UserUpdation>>();
+      _passwordHasherMock = new Mock<IPasswordHasher>();
 
       _usersService = new UsersService(
         _usersRepositoryMock.Object,
         _mapperMock.Object,
         _userCreationValidatorMock.Object,
-        _userUpdationValidatorMock.Object
+        _userUpdationValidatorMock.Object,
+        _passwordHasherMock.Object
       );
     }
 

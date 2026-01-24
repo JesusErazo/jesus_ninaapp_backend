@@ -17,16 +17,19 @@ namespace NinaApp.Core.Services
     private readonly IMapper _mapper;
     private readonly IValidator<UserCreation> _userCreationValidator;
     private readonly IValidator<UserUpdation> _userUpdationValidator;
+    private readonly IPasswordHasher _passwordHasher;
     public UsersService(
       IUsersRepository usersRepository, 
       IMapper mapper, 
       IValidator<UserCreation> userCreationValidator,
-      IValidator<UserUpdation> userUpdationValidator
+      IValidator<UserUpdation> userUpdationValidator,
+      IPasswordHasher passwordHasher
       ) {
       _usersRepository = usersRepository;
       _mapper = mapper;
       _userCreationValidator = userCreationValidator;
       _userUpdationValidator = userUpdationValidator;
+      _passwordHasher = passwordHasher;
     }
 
     public async Task<ServiceResult<UserResponse>> CreateUser(UserCreation user)
@@ -48,7 +51,9 @@ namespace NinaApp.Core.Services
           ServiceResultStatus.Conflict
         );
 
-      User userRepo = User.Create(user.Name!, user.Email!, user.Password!);
+      string hashedPassword = _passwordHasher.Hash(user.Password!);
+
+      User userRepo = User.Create(user.Name!, user.Email!, hashedPassword);
       User? userCreated = await _usersRepository.CreateUser(userRepo);
 
       if (userCreated is not null)
@@ -142,7 +147,13 @@ namespace NinaApp.Core.Services
           );
       }
 
-      existingUser.UpdateDetails(user.Name, user.Email, user.Password);
+      string? passwordToSave = existingUser.Password;
+      if (!string.IsNullOrWhiteSpace(user.Password))
+      {
+        passwordToSave = _passwordHasher.Hash(user.Password);
+      }
+
+      existingUser.UpdateDetails(user.Name, user.Email, passwordToSave);
       bool isUserUpdated = await _usersRepository.UpdateUser(existingUser);
 
       if (isUserUpdated)

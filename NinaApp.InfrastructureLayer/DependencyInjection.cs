@@ -2,8 +2,10 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NinaApp.Core.RepositoryContracts;
+using NinaApp.Core.ServiceContracts;
 using NinaApp.Infrastructure.Database;
 using NinaApp.Infrastructure.Repositories;
+using NinaApp.Infrastructure.Services;
 
 namespace NinaApp.Infrastructure
 {
@@ -20,6 +22,8 @@ namespace NinaApp.Infrastructure
       });
 
       services.AddScoped<IUsersRepository, UsersRepository>();
+
+      services.AddScoped<IPasswordHasher, PasswordHasher>();
 
       return services;
     }
