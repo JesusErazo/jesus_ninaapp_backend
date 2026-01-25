@@ -16,6 +16,8 @@ namespace NinaApp.Core
       services.AddScoped<IUsersService, UsersService>();
 
       services.AddValidatorsFromAssembly(typeof(UserCreationValidator).Assembly);
+
+      services.AddScoped<IAuthService, AuthService>();
       return services;
     }
   }
