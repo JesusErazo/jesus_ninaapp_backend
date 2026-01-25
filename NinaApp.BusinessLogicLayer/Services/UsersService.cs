@@ -167,36 +167,5 @@ namespace NinaApp.Core.Services
         ServiceResultStatus.NotFound
       );
     }
-
-    public async Task<ServiceResult> AuthenticateUser(UserLogin userLogin)
-    {
-      ValidationResult validationResult = await _userLoginValidator.ValidateAsync(userLogin);
-
-      if (!validationResult.IsValid)
-      {
-        Dictionary<string, string[]> errors = validationResult.Errors.ToValidationErrorDictionary();
-        return ServiceResult.ValidationFailure(errors);
-      }
-
-      User? existingUser = await _usersRepository.GetUserByEmail(userLogin.Email!);
-
-      if (existingUser is null)
-      {
-        return ServiceResult.Failure(
-          string.Format(ErrorMessages.LoginError),
-          ServiceResultStatus.Unauthorized
-        );
-      }
-
-      bool verifiedUser = _passwordHasher.Verify(userLogin.Password!, existingUser.Password!);
-
-      if (verifiedUser)
-        return ServiceResult.Success();
-
-      return ServiceResult.Failure(
-          string.Format(ErrorMessages.LoginError),
-          ServiceResultStatus.Unauthorized
-        );
-    }
   }
 }

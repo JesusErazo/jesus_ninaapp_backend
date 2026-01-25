@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NinaApp.Core.DTO;
 using NinaApp.Core.ServiceContracts;
 
@@ -6,21 +7,13 @@ namespace NinaApp.API.Controllers
 {
   [ApiController]
   [Route("api/users")]
+  [Authorize]
   public class UsersController: BaseApiController
   {
     private readonly IUsersService _usersService;
     public UsersController(IUsersService usersService) {
       _usersService = usersService;
     }
-
-    [HttpPost("login")]
-    public async Task<IActionResult> Login(UserLogin userLogin)
-    {
-      var loginResult = await _usersService.AuthenticateUser(userLogin);
-
-      return HandleResult(loginResult);
-    }
-
 
     [HttpGet]
     public async Task<IActionResult> GetUsers([FromQuery] Pagination pagination)
@@ -39,6 +32,7 @@ namespace NinaApp.API.Controllers
     }
 
     [HttpPost]
+    [AllowAnonymous]
     public async Task<IActionResult> CreateUser(UserCreation user)
     {
       var creationResult = await _usersService.CreateUser(user);
